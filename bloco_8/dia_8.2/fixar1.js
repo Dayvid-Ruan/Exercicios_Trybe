@@ -1,3 +1,4 @@
+//Ativida sobre forEach;
 const emailListInData = [
     'roberta@email.com',
     'paulo@email.com',
