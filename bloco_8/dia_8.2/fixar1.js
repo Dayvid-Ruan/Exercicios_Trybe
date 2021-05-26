@@ -1,4 +1,5 @@
-//Ativida sobre forEach;
+//Atividade sobre forEach;
+//Use o método forEach chamando a callback showEmailList para apresentar os emails:
 const emailListInData = [
     'roberta@email.com',
     'paulo@email.com',
