@@ -1,5 +1,5 @@
 const assert = require('assert');
-
+//4- Ordene os livros por data de lançamento em ordem decrescente.
 const books = [
   {
     id: 1,
@@ -113,5 +113,5 @@ const expectedResult = [
     return books.sort((a, b) => b.releaseYear - a.releaseYear);
   }
   
-  assert.deepStrictEqual(booksOrderedByReleaseYearDesc(), expectedResult);
+   assert.deepStrictEqual(booksOrderedByReleaseYearDesc(), expectedResult);
   console.log(booksOrderedByReleaseYearDesc(books))
